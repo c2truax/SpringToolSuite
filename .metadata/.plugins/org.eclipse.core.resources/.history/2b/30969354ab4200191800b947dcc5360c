@@ -1,0 +1,30 @@
+package com.codingdojo.calculator;
+
+public class Calculator {
+	private double result;
+	private double numberOne;
+	private double numberTwo;
+	private String operation;
+	
+	public Calculator() {
+		this.setResult(0);
+	}
+	
+	public void setOperandOne(double num) {
+		
+	}
+	public void setOperation(String operation) {
+		
+	}
+	public void setOperandTwo(double num) {
+		
+	}
+	public void performOperation() {
+		
+	}
+
+	public double getResult() {
+		return result;
+	}
+
+}
