@@ -711,3 +711,90 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 14:07:30.154
 !MESSAGE executing callback sts4.classpath.ujPDpfPt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:20.059
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ujPDpfPt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:20.061
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ujPDpfPt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:20.062
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:20.062
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ujPDpfPt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.338
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DFuLHKOT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.339
+!MESSAGE subscribing to classpath changes: sts4.classpath.DFuLHKOT
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.340
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.341
+!MESSAGE subsribers = [sts4.classpath.DFuLHKOT]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.341
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.342
+!MESSAGE project Phone ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.345
+!MESSAGE project Calculator ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.345
+!MESSAGE Preparing classpath changed notification Phone
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.346
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.346
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.347
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.348
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.DFuLHKOT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.349
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.350
+!MESSAGE executing callback sts4.classpath.DFuLHKOT Phone false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.388
+!MESSAGE executing callback sts4.classpath.DFuLHKOT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.389
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.389
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.396
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.396
+!MESSAGE executing callback sts4.classpath.DFuLHKOT demo false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.417
+!MESSAGE executing callback sts4.classpath.DFuLHKOT SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.433
+!MESSAGE Preparing classpath changed notification Calculator
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.433
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.437
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.438
+!MESSAGE executing callback sts4.classpath.DFuLHKOT Calculator false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-09 15:43:33.444
+!MESSAGE executing callback sts4.classpath.DFuLHKOT SUCCESS [done]
