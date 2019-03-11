@@ -1126,3 +1126,101 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 13:39:59.349
 !MESSAGE executing callback sts4.classpath.sAHnzbeG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.555
+!MESSAGE Preparing classpath changed notification routingpractice
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.557
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.557
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.558
+!MESSAGE executing callback sts4.classpath.sAHnzbeG routingpractice false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.572
+!MESSAGE executing callback sts4.classpath.sAHnzbeG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.880
+!MESSAGE Preparing classpath changed notification routingpractice
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.880
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.883
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:43.883
+!MESSAGE executing callback sts4.classpath.sAHnzbeG routingpractice false 78
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-03-11 14:19:44.316
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.operations.hover.LSBasedHover.getHoverInfo(LSBasedHover.java:105)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:43)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:45.889
+!MESSAGE executing callback sts4.classpath.sAHnzbeG FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-11 14:19:45.889
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:45.890
+!MESSAGE Preparing classpath changed notification routingpractice
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:45.890
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:45.893
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:45.894
+!MESSAGE executing callback sts4.classpath.sAHnzbeG routingpractice false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.676
+!MESSAGE executing callback sts4.classpath.sAHnzbeG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.677
+!MESSAGE Preparing classpath changed notification routingpractice
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.677
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.680
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.682
+!MESSAGE executing callback sts4.classpath.sAHnzbeG routingpractice false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.690
+!MESSAGE executing callback sts4.classpath.sAHnzbeG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.694
+!MESSAGE Preparing classpath changed notification routingpractice
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.694
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.697
+!MESSAGE classpath=78 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.697
+!MESSAGE executing callback sts4.classpath.sAHnzbeG routingpractice false 78
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-11 14:19:46.720
+!MESSAGE executing callback sts4.classpath.sAHnzbeG SUCCESS [done]

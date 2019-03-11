@@ -1364,3 +1364,105 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-03-11 13:45:20,395 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-03-11 13:45:20,397 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-03-11 13:45:20,398 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/strings/src/test/resources
+2019-03-11 13:52:04,310 [Worker-182: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:52:04,312 [Worker-182: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:52:04,315 [Worker-182: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:52:04,319 [Worker-182: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:52:04,330 [Worker-182: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 13:52:28,345 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:52:28,346 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:52:28,349 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:52:28,351 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:52:28,352 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 13:52:31,127 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:52:31,128 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:52:31,129 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:52:31,135 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:52:31,135 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 13:53:18,231 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:53:18,232 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:53:18,241 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:53:18,245 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:53:18,245 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 13:54:24,302 [Worker-181: Launching firstproject - HomeController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:54:24,303 [Worker-181: Launching firstproject - HomeController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:54:24,305 [Worker-181: Launching firstproject - HomeController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:54:24,319 [Worker-181: Launching firstproject - HomeController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:54:24,319 [Worker-181: Launching firstproject - HomeController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 13:55:19,413 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:55:19,415 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:55:19,418 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:55:19,421 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:55:19,422 [Worker-171: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 13:57:59,197 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:57:59,210 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:57:59,225 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:57:59,227 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:57:59,227 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 14:19:42,927 [Worker-185: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.christruax.routingpractice:routingpractice:0.0.1-SNAPSHOT @ /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/pom.xml.
+2019-03-11 14:19:43,612 [Worker-185: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /routingpractice/src/main/java
+2019-03-11 14:19:43,613 [Worker-185: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /routingpractice/src/main/resources
+2019-03-11 14:19:43,625 [Worker-185: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /routingpractice/src/main/resources
+2019-03-11 14:19:43,639 [Worker-185: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /routingpractice/src/test/java
+2019-03-11 14:19:45,140 [Worker-185: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2019-03-11 14:19:45,144 [Worker-185: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-11 14:19:45,565 [Worker-185: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.christruax.routingpractice:routingpractice:0.0.1-SNAPSHOT @ /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/pom.xml.
+2019-03-11 14:19:46,239 [Worker-185: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /routingpractice/src/main/java
+2019-03-11 14:19:46,240 [Worker-185: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /routingpractice/src/main/resources
+2019-03-11 14:19:46,240 [Worker-185: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /routingpractice/src/main/resources
+2019-03-11 14:19:46,241 [Worker-185: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /routingpractice/src/test/java
+2019-03-11 14:19:46,555 [Worker-185: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for routingpractice
+2019-03-11 14:19:46,569 [Worker-185: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2019-03-11 14:19:47,735 [Worker-188: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:19:47,736 [Worker-188: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 14:19:47,748 [Worker-188: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 14:19:47,751 [Worker-188: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:19:47,751 [Worker-188: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 14:19:47,752 [Worker-188: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of routingpractice
+2019-03-11 14:19:47,752 [Worker-188: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for routingpractice
+2019-03-11 14:19:47,756 [Worker-188: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:20:49,535 [Worker-187: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:20:49,536 [Worker-187: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 14:20:49,537 [Worker-187: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 14:20:49,539 [Worker-187: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:20:49,539 [Worker-187: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 14:25:03,272 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:25:03,273 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 14:25:03,275 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 14:25:03,277 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:25:03,277 [Worker-178: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 14:25:27,957 [Worker-184: Launching routingpractice - CodingController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:25:27,959 [Worker-184: Launching routingpractice - CodingController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 14:25:27,960 [Worker-184: Launching routingpractice - CodingController] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 14:25:27,963 [Worker-184: Launching routingpractice - CodingController] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:25:27,963 [Worker-184: Launching routingpractice - CodingController] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 14:27:31,907 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:27:31,908 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 14:27:31,910 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 14:27:31,913 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:27:31,913 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 14:29:14,677 [Worker-192: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:29:14,678 [Worker-192: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 14:29:14,679 [Worker-192: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 14:29:14,680 [Worker-192: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:29:14,681 [Worker-192: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 14:30:21,791 [Worker-191: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:30:21,796 [Worker-191: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 14:30:21,798 [Worker-191: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 14:30:21,800 [Worker-191: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 14:30:21,800 [Worker-191: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 15:11:15,549 [Worker-194: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 15:11:15,551 [Worker-194: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 15:11:15,557 [Worker-194: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 15:11:15,559 [Worker-194: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 15:11:15,559 [Worker-194: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 15:13:58,872 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 15:13:58,873 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 15:13:58,874 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 15:13:58,877 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 15:13:58,877 [Worker-189: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
+2019-03-11 15:15:19,226 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 15:15:19,228 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 15:15:19,230 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 15:15:19,235 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 15:15:19,235 [Worker-181: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/routingpractice/src/test/resources
