@@ -1288,3 +1288,79 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2019-03-09 14:15:14,401 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-03-09 14:15:14,404 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-03-09 14:15:14,404 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/demo/src/test/resources
+2019-03-11 11:38:58,371 [Worker-137: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.christruax.firstproject:firstproject:0.0.1-SNAPSHOT @ /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/demo-1/pom.xml.
+2019-03-11 11:38:59,774 [Worker-137: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/main/java
+2019-03-11 11:38:59,775 [Worker-137: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2019-03-11 11:38:59,786 [Worker-137: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2019-03-11 11:38:59,829 [Worker-137: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/test/java
+2019-03-11 11:39:01,830 [Worker-137: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2019-03-11 11:39:01,832 [Worker-137: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-11 11:39:02,730 [Worker-137: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.christruax.firstproject:firstproject:0.0.1-SNAPSHOT @ /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/demo-1/pom.xml.
+2019-03-11 11:39:04,000 [Worker-137: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/main/java
+2019-03-11 11:39:04,001 [Worker-137: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2019-03-11 11:39:04,002 [Worker-137: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /demo-1/src/main/resources
+2019-03-11 11:39:04,002 [Worker-137: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /demo-1/src/test/java
+2019-03-11 11:39:04,646 [Worker-137: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for demo-1
+2019-03-11 11:39:04,649 [Worker-137: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-03-11 11:39:06,237 [Worker-142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 11:39:06,237 [Worker-142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 11:39:06,239 [Worker-142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 11:39:06,244 [Worker-142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 11:39:06,244 [Worker-142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/demo-1/src/test/resources
+2019-03-11 11:39:06,245 [Worker-142: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of demo-1
+2019-03-11 11:39:06,246 [Worker-142: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for demo-1
+2019-03-11 11:39:06,253 [Worker-142: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 11:46:21,153 [Worker-156: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.christruax.firstproject:firstproject:0.0.1-SNAPSHOT @ /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/pom.xml.
+2019-03-11 11:46:21,844 [Worker-156: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstproject/src/main/java
+2019-03-11 11:46:21,845 [Worker-156: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstproject/src/main/resources
+2019-03-11 11:46:21,851 [Worker-156: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstproject/src/main/resources
+2019-03-11 11:46:21,864 [Worker-156: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstproject/src/test/java
+2019-03-11 11:46:22,806 [Worker-156: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2019-03-11 11:46:22,807 [Worker-156: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-11 11:46:23,298 [Worker-156: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.christruax.firstproject:firstproject:0.0.1-SNAPSHOT @ /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/pom.xml.
+2019-03-11 11:46:24,234 [Worker-156: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstproject/src/main/java
+2019-03-11 11:46:24,234 [Worker-156: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstproject/src/main/resources
+2019-03-11 11:46:24,235 [Worker-156: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /firstproject/src/main/resources
+2019-03-11 11:46:24,235 [Worker-156: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /firstproject/src/test/java
+2019-03-11 11:46:24,830 [Worker-156: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for firstproject
+2019-03-11 11:46:24,834 [Worker-156: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-03-11 11:46:26,016 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 11:46:26,017 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 11:46:26,018 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 11:46:26,021 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 11:46:26,021 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 11:46:26,021 [Worker-158: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of firstproject
+2019-03-11 11:46:26,021 [Worker-158: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for firstproject
+2019-03-11 11:46:26,043 [Worker-158: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 11:55:09,489 [Worker-165: Launching firstproject - FirstprojectApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 11:55:09,493 [Worker-165: Launching firstproject - FirstprojectApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 11:55:09,495 [Worker-165: Launching firstproject - FirstprojectApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 11:55:09,500 [Worker-165: Launching firstproject - FirstprojectApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 11:55:09,500 [Worker-165: Launching firstproject - FirstprojectApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/firstproject/src/test/resources
+2019-03-11 13:39:53,462 [Worker-171: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.christruax.strings:strings:0.0.1-SNAPSHOT @ /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/strings/pom.xml.
+2019-03-11 13:39:54,723 [Worker-171: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strings/src/main/java
+2019-03-11 13:39:54,724 [Worker-171: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /strings/src/main/resources
+2019-03-11 13:39:54,730 [Worker-171: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /strings/src/main/resources
+2019-03-11 13:39:54,741 [Worker-171: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strings/src/test/java
+2019-03-11 13:39:56,464 [Worker-171: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2019-03-11 13:39:56,466 [Worker-171: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-03-11 13:39:57,001 [Worker-171: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.christruax.strings:strings:0.0.1-SNAPSHOT @ /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/strings/pom.xml.
+2019-03-11 13:39:58,583 [Worker-171: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strings/src/main/java
+2019-03-11 13:39:58,583 [Worker-171: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /strings/src/main/resources
+2019-03-11 13:39:58,584 [Worker-171: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /strings/src/main/resources
+2019-03-11 13:39:58,584 [Worker-171: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /strings/src/test/java
+2019-03-11 13:39:59,257 [Worker-171: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for strings
+2019-03-11 13:39:59,260 [Worker-171: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-03-11 13:40:00,740 [Worker-176: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:40:00,741 [Worker-176: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:40:00,743 [Worker-176: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:40:00,748 [Worker-176: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:40:00,748 [Worker-176: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/strings/src/test/resources
+2019-03-11 13:40:00,749 [Worker-176: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of strings
+2019-03-11 13:40:00,749 [Worker-176: Building workspace] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for strings
+2019-03-11 13:40:00,754 [Worker-176: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:45:20,391 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:45:20,393 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-03-11 13:45:20,395 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-03-11 13:45:20,397 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-03-11 13:45:20,398 [Worker-173: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/christophertruax/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/strings/src/test/resources
