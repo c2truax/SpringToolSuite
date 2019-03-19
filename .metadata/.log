@@ -6912,3 +6912,320 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.849
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.852
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.855
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.855
+!MESSAGE executing callback sts4.classpath.KZyZAbdP languages false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.894
+!MESSAGE executing callback sts4.classpath.KZyZAbdP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.894
+!MESSAGE executing callback sts4.classpath.mLhHrvZr languages false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.895
+!MESSAGE executing callback sts4.classpath.mLhHrvZr FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 15:56:32.895
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.mLhHrvZr'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.896
+!MESSAGE executing callback sts4.classpath.BTtUflzD languages false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:32.934
+!MESSAGE executing callback sts4.classpath.BTtUflzD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:33.082
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:33.082
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:33.085
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:33.085
+!MESSAGE executing callback sts4.classpath.KZyZAbdP languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:35.088
+!MESSAGE executing callback sts4.classpath.KZyZAbdP FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 15:56:35.088
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1771)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:35.090
+!MESSAGE executing callback sts4.classpath.mLhHrvZr languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:35.091
+!MESSAGE executing callback sts4.classpath.mLhHrvZr FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 15:56:35.091
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.mLhHrvZr'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:35.091
+!MESSAGE executing callback sts4.classpath.BTtUflzD languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.978
+!MESSAGE executing callback sts4.classpath.BTtUflzD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.978
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.979
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.982
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.982
+!MESSAGE executing callback sts4.classpath.KZyZAbdP languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.990
+!MESSAGE executing callback sts4.classpath.KZyZAbdP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.990
+!MESSAGE executing callback sts4.classpath.mLhHrvZr languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.991
+!MESSAGE executing callback sts4.classpath.mLhHrvZr FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 15:56:36.991
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.mLhHrvZr'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:36.997
+!MESSAGE executing callback sts4.classpath.BTtUflzD languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.005
+!MESSAGE executing callback sts4.classpath.BTtUflzD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.005
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.006
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.009
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.010
+!MESSAGE executing callback sts4.classpath.KZyZAbdP languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.080
+!MESSAGE executing callback sts4.classpath.KZyZAbdP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.081
+!MESSAGE executing callback sts4.classpath.mLhHrvZr languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.085
+!MESSAGE executing callback sts4.classpath.mLhHrvZr FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 15:56:37.085
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.mLhHrvZr'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.085
+!MESSAGE executing callback sts4.classpath.BTtUflzD languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.091
+!MESSAGE executing callback sts4.classpath.BTtUflzD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.091
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.092
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.095
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.096
+!MESSAGE executing callback sts4.classpath.KZyZAbdP languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.101
+!MESSAGE executing callback sts4.classpath.KZyZAbdP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.102
+!MESSAGE executing callback sts4.classpath.mLhHrvZr languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.102
+!MESSAGE executing callback sts4.classpath.mLhHrvZr FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 15:56:37.102
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.mLhHrvZr'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.103
+!MESSAGE executing callback sts4.classpath.BTtUflzD languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.112
+!MESSAGE executing callback sts4.classpath.BTtUflzD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.112
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.113
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.116
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.116
+!MESSAGE executing callback sts4.classpath.KZyZAbdP languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.123
+!MESSAGE executing callback sts4.classpath.KZyZAbdP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.123
+!MESSAGE executing callback sts4.classpath.mLhHrvZr languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.124
+!MESSAGE executing callback sts4.classpath.mLhHrvZr FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 15:56:37.124
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.mLhHrvZr'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.124
+!MESSAGE executing callback sts4.classpath.BTtUflzD languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.130
+!MESSAGE executing callback sts4.classpath.BTtUflzD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.131
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.131
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.135
+!MESSAGE classpath=100 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.135
+!MESSAGE executing callback sts4.classpath.KZyZAbdP languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.144
+!MESSAGE executing callback sts4.classpath.KZyZAbdP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.145
+!MESSAGE executing callback sts4.classpath.mLhHrvZr languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.145
+!MESSAGE executing callback sts4.classpath.mLhHrvZr FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 15:56:37.146
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.mLhHrvZr'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.146
+!MESSAGE executing callback sts4.classpath.BTtUflzD languages false 100
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 15:56:37.152
+!MESSAGE executing callback sts4.classpath.BTtUflzD SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.579
+!MESSAGE Preparing classpath changed notification languages
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.580
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.584
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.584
+!MESSAGE executing callback sts4.classpath.KZyZAbdP languages false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.619
+!MESSAGE executing callback sts4.classpath.KZyZAbdP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.619
+!MESSAGE executing callback sts4.classpath.mLhHrvZr languages false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.620
+!MESSAGE executing callback sts4.classpath.mLhHrvZr FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2019-03-18 16:01:55.620
+!MESSAGE 
+!STACK 0
+java.lang.UnsupportedOperationException: No language server has registered to handle command 'sts4.classpath.mLhHrvZr'
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:42)
+	at org.springframework.tooling.jdt.ls.commons.classpath.ReusableClasspathListenerHandler$Subscriptions$2.run(ReusableClasspathListenerHandler.java:179)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.621
+!MESSAGE executing callback sts4.classpath.BTtUflzD languages false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-03-18 16:01:55.663
+!MESSAGE executing callback sts4.classpath.BTtUflzD SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 4 0 2019-03-19 12:06:12.011
+!MESSAGE org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+!STACK 0
+java.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1915)
+	at org.eclipse.lsp4e.operations.completion.LSContentAssistProcessor.computeCompletionProposals(LSContentAssistProcessor.java:96)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaCompletionProposalComputer.lambda$0(SpringBootJavaCompletionProposalComputer.java:51)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1582)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$1(LanguageServerWrapper.java:213)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)

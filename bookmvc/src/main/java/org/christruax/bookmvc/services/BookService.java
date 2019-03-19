@@ -7,6 +7,7 @@ import org.christruax.bookmvc.models.Book;
 import org.christruax.bookmvc.repositories.BookRepository;
 import org.springframework.stereotype.Service;
 
+
 @Service
 public class BookService {
 	private final BookRepository bookRepository;
