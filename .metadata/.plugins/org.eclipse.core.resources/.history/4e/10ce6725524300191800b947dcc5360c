@@ -1,5 +1,0 @@
-package com.codingdojo.phone;
-
-public class Galaxy extends Phone implements Ringable {
-
-}
