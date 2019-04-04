@@ -14,16 +14,16 @@
 <div class="container">
 	<h1>New Person</h1>
 	
-	<form:form action="/people" method="post" modelAttribute="person">
+	<form:form action="/people" method="POST" modelAttribute="person">
 	    <p>
-	        <form:label path="f_name">First Name:</form:label>
-	        <form:errors path="f_name"/>
-	        <form:input path="f_name"/>
+	        <form:label path="firstName">First Name:</form:label>
+	        <form:errors path="firstName"/>
+	        <form:input path="firstName"/>
 	    </p>
 	    <p>
-	        <form:label path="l_name">Last Name:</form:label>
-	        <form:errors path="l_name"/>
-	        <form:input path="l_name"/>
+	        <form:label path="lastName">Last Name:</form:label>
+	        <form:errors path="lastName"/>
+	        <form:input path="lastName"/>
 	    </p>   
 	    <input class="btn btn-success" type="submit" value="Create"/>
 	</form:form>

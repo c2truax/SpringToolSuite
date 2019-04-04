@@ -14,13 +14,13 @@
 	<div class="container">
 	<h1>New License</h1>
 	
-	<form:form action="/licenses" method="post" modelAttribute="license">
+	<form:form action="/licenses" method="POST" modelAttribute="license">
 	    <p>
-	        <form:label path="person_id">Person:</form:label>
-	        <form:errors path="person_id"/>
-	        <form:select path="person_id">
+	        <form:label path="person">Person:</form:label>
+	        <form:errors path="person"/>
+	        <form:select path="person">
 	        	<c:forEach items="${people}" var="p">
-	        	<form:option value="${p.id}"><c:out value="${p.f_name}"/> <c:out value="${p.l_name}"/></form:option>
+	        	<form:option value="${p}"><c:out value="${p.firstName}"/> <c:out value="${p.lastName}"/></form:option>
 	        	</c:forEach>
 	        </form:select>
 	    </p>
@@ -30,9 +30,9 @@
 	        <form:input path="state"/>
 	    </p> 
 	    <p>
-	        <form:label path="ex_date">Expiration Date:</form:label>
-	        <form:errors path="ex_date"/>
-	        <form:input type="date" path="ex_date"/>
+	        <form:label path="expirationDate">Expiration Date:</form:label>
+	        <form:errors path="expirationDate"/>
+	        <form:input type="date" path="expirationDate"/>
 	    </p>  
 	    <input class="btn btn-success" type="submit" value="Create"/>
 	</form:form>

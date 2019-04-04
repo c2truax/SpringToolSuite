@@ -10,7 +10,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToOne;
+import javax.persistence.PrePersist;
+import javax.persistence.PreUpdate;
 import javax.persistence.Table;
+import javax.validation.constraints.Size;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
@@ -20,7 +23,9 @@ public class Person {
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+	@Size(min = 2, max = 20, message = "must be between 2 and 20 characters.")
     private String firstName;
+	@Size(min = 2, max = 20, message = "must be between 2 and 20 characters.")
     private String lastName;
     @Column(updatable=false)
     @DateTimeFormat(pattern="yyyy-MM-dd")
@@ -81,4 +86,13 @@ public class Person {
 	public void setLicense(License license) {
 		this.license = license;
 	}
+	
+	@PrePersist
+    protected void onCreate(){
+        this.createdAt = new Date();
+    }
+    @PreUpdate
+    protected void onUpdate(){
+        this.updatedAt = new Date();
+    }
 }
