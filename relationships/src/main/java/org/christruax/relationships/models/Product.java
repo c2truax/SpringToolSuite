@@ -1,4 +1,4 @@
-package org.christruax.dojosandninjas.models;
+package org.christruax.relationships.models;
 
 import java.util.Date;
 import java.util.List;
@@ -9,30 +9,43 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.JoinTable;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Size;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
 @Entity
-@Table(name="dojos")
-public class Dojo {
-    
+@Table(name="products")
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Size(min=1, message="Product must have at least 1 character")
     private String name;
+    @Size(min=1, message="Product must have at least 1 character")
+    private String description;
+    @Min(value=0, message="Product price must be greater then 0")
+    private double price;
     @Column(updatable=false)
     @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date createdAt;
     @DateTimeFormat(pattern="yyyy-MM-dd")
     private Date updatedAt;
-    @OneToMany(mappedBy="dojo", fetch = FetchType.LAZY)
-    private List<Ninja> ninjas;
+    @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(
+        name = "categories_products", 
+        joinColumns = @JoinColumn(name = "product_id"), 
+        inverseJoinColumns = @JoinColumn(name = "category_id")
+    )
+    private List<Category> categories;
     
-    public Dojo() {
+    public Product() {
         
     }
 
@@ -52,6 +65,22 @@ public class Dojo {
 		this.name = name;
 	}
 
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
 	public Date getCreatedAt() {
 		return createdAt;
 	}
@@ -68,12 +97,12 @@ public class Dojo {
 		this.updatedAt = updatedAt;
 	}
 
-	public List<Ninja> getNinjas() {
-		return ninjas;
+	public List<Category> getCategories() {
+		return categories;
 	}
 
-	public void setNinjas(List<Ninja> ninjas) {
-		this.ninjas = ninjas;
+	public void setCategories(List<Category> categories) {
+		this.categories = categories;
 	}
     
 	@PrePersist
