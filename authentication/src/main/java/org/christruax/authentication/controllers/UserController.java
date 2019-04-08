@@ -1,5 +1,6 @@
 package org.christruax.authentication.controllers;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.servlet.http.HttpSession;
@@ -7,7 +8,6 @@ import javax.validation.Valid;
 
 import org.christruax.authentication.models.User;
 import org.christruax.authentication.services.UserService;
-import org.christruax.languages.models.Language;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -26,11 +26,11 @@ public class UserController {
     
     @RequestMapping("/registration")
     public String registerForm(@ModelAttribute("user") User user) {
-        return "registrationPage.jsp";
+        return "/registration/registrationPage.jsp";
     }
     @RequestMapping("/login")
     public String login() {
-        return "loginPage.jsp";
+        return "/login/loginPage.jsp";
     }
     
     @RequestMapping(value="/registration", method=RequestMethod.POST)
@@ -40,7 +40,8 @@ public class UserController {
     	if (result.hasErrors()) {
 			return "/registration/registrationPage.jsp";
 		} else {
-			
+			User savedUser = userService.registerUser(user);
+			session.setAttribute("userid", savedUser.getId());
 			return "redirect:/home";
 		}
     }
@@ -49,15 +50,30 @@ public class UserController {
     public String loginUser(@RequestParam("email") String email, @RequestParam("password") String password, Model model, HttpSession session) {
         // if the user is authenticated, save their user id in session
         // else, add error messages and return the login page
+    	// List<String> errors = new ArrayList<String>();
+    	if (userService.authenticateUser(email, password) == false) {
+    		model.addAttribute("error", "Invalid Login");
+			return "/login/loginPage.jsp";
+		} else {
+			User u = userService.findByEmail(email);
+			session.setAttribute("userid", u.getId());
+			return "redirect:/home";
+		}
     }
     
     @RequestMapping("/home")
     public String home(HttpSession session, Model model) {
         // get user from session, save them in the model and return the home page
+    	Long userId = (Long) session.getAttribute("userid");
+    	User user = userService.findUserById(userId);
+    	model.addAttribute("user", user);
+    	return "/home/homePage.jsp";
     }
     @RequestMapping("/logout")
     public String logout(HttpSession session) {
         // invalidate session
         // redirect to login page
+    	session.invalidate();
+    	return "redirect:/login";
     }
 }

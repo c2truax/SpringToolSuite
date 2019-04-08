@@ -2,6 +2,8 @@ package org.christruax.authentication.services;
 
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.christruax.authentication.models.User;
 import org.christruax.authentication.repository.UserRepository;
 import org.mindrot.jbcrypt.BCrypt;
@@ -54,4 +56,6 @@ public class UserService {
             }
         }
     }
+
+	
 }
